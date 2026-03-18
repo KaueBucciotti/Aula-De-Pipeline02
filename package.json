@@ -1,7 +1,7 @@
 {
   "name": "pipeline_aula02-main",
   "version": "1.0.0",
-  "description": "",
+  "description": "Aula de Pipeline CI/CD",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -16,7 +16,7 @@
     "url": "git+https://github.com/KaueBucciotti/Aula-De-Pipeline02.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kaue Bucciotti",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KaueBucciotti/Aula-De-Pipeline02/issues"
