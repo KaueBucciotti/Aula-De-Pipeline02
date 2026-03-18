@@ -8,6 +8,23 @@ on:
       - main
 
 jobs: 
+  quality:
+  runs on: "ubuntu-latest"
+
+  steps:
+  - name: Checkout código
+  use: actions/checkout@v4
+
+  -name: Instalar Node
+  use: actions/setup-node@v4
+  with:
+    node-version: 24
+
+  -name: Instalar dependências
+  run: npm Install
+
+  -name: Rodar lint
+  run: npm run lint
 
   build: 
     runs-on: ubuntu-latest
